@@ -1,9 +1,10 @@
 :root {
-    --branco: white;
-    --dourado: #c0b283;
-    --silk: #dcd0c0;
-    --preto: rgb(75, 75, 75);
+    --branco: #e8eddf;
+    --cinza: #81817f;
+    --preto: #242423;
+    --prata: #cfdbd5;
 }
+
 
 * {
     margin: 0;
@@ -11,7 +12,7 @@
 }
 
 a {
-    color: var(--preto);
+    color: var(--branco);
     text-decoration: none;
 }
 
@@ -25,9 +26,9 @@ a:hover{
     justify-content: space-around;
     align-items: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: var(--branco);
+    background: var(--preto);
     height: 8vh;
-    color: var(--preto);
+    color: var(--prata);
 }
 
 .nav-list {
@@ -42,17 +43,17 @@ a:hover{
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: var(--dourado);
+    background-color: var(--branco);
 }
 
 main {
     border-radius: 10px;
-    padding: 100px;
-    height: 700px;
-    background-color: var(--silk);
+    padding: 50px;
+    height: 790px;
+    background-color: var(--branco);
     margin: auto;
     min-width: 320px;
-    max-width: 1200px;
+    max-width: 1700px;
 }
 
 h1{
