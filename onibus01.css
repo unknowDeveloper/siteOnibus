@@ -81,6 +81,11 @@ main {
     max-width: 1700px;
 }
 
+li:hover{
+    opacity: 0.7;
+    color: var(--prata);
+}
+
 .rolagemFotos{
     list-style: none;
     display: inline-flex;
@@ -119,6 +124,14 @@ main {
 .box_img{
     width: 1000px;
     margin: 150px auto;
+}
+
+.box_img_vertical{
+    padding-left: 750px;
+    padding-top: 100px ;
+}
+.box_img_vertical img{
+    height: 750px;
 }
 
 .box_img img{
@@ -168,12 +181,22 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+.box3 {
+    background-color: var(--prata);
+    padding: 10px;
+    margin-left: ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
 .container {
     font-size: 18px;
     display: grid;
     margin-left: 105px;
-    grid-template-columns: 1fr 1fr;
-    max-width: 40rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100rem;
     min-width: 30rem;
-    padding: 10px;
+    padding: 20px;
+    padding-left: 10px;
 }
